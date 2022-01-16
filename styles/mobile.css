@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+@media  screen and (min-width: 375px) and (max-width: 500px) {
+    .profile-card{
+        background-image: url('../images/bg-pattern-card.svg');
+        background-repeat: no-repeat;
+        background-size: 100% 40%;
+        background-color: white;
+        height: 45vh;
+        width: 80vw;
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1440px) {
+    .profile-card{
+        background-image: url('../images/bg-pattern-card.svg');
+        background-repeat: no-repeat;
+        background-size: 100% 40%;
+        background-color: white;
+        height: 45vh;
+        width: 40vw;
+        border-radius: 1rem;
+    }
+}
+
